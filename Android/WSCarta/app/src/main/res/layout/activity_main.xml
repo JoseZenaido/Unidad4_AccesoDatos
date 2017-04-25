@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/color1"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:layout_weight="0.94">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <!--  Folio -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/folio"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:id="@+id/textView" />
+
+            <EditText
+                android:id="@+id/tv_folio"
+                android:inputType="number"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:background="@color/color3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--  Periodo -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/periodo"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/tv_periodo"
+                android:inputType="number"
+                android:textSize="20dp"
+                android:fontFamily="casual"
+                android:background="@color/color3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--  Pagado-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pagado"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_pagado"
+                        android:inputType="number"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+            <!--  Autorizo-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/autorizo"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_autorizo"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+            <!--  Fecha pago -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fecha_pago"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_fecha_pago"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+            <!--  Fecha Solicitud -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fecha_solicitud"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_fecha_solicitud"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+            <!--  Persona Autorizo -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/persona_autorizo"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/tv_persona_autorizo"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:fontFamily="casual"
+                        android:background="@color/color3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:id="@+id/btn_save"
+            android:background="@color/color2"
+            />
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="@string/list"
+            android:id="@+id/btn_list"
+            android:background="@color/color2"
+            />
+    </LinearLayout>
+</LinearLayout>

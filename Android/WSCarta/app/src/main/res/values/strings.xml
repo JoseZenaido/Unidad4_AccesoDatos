@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WSCarta</string>
+    <string name="folio">Folio</string>
+    <string name="periodo">Periodo</string>
+    <string name="pagado">Pagado</string>
+    <string name="autorizo">Autorizo</string>
+    <string name="fecha_pago">Fecha Pago</string>
+    <string name="fecha_solicitud">Fecha Solicitud</string>
+    <string name="persona_autorizo">Persona Autorizo</string>
+    <string name="save">save</string>
+    <string name="list">list</string>
+</resources>
